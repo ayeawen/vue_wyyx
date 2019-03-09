@@ -1,6 +1,8 @@
 <template>
-  <div>
-    FirstView
+  <div id="firstView">
+    <div class="headWrap"></div>
+    <div class="swiperWrap"></div>
+    <div class="headWrap"></div>
   </div>
 </template>
 
