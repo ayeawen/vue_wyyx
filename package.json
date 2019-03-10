@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "better-scroll": "^1.14.1",
     "lib-flexible": "^0.3.2",
     "postcss-pxtorem": "^4.0.1",
     "stylus": "^0.54.5",
