@@ -1,65 +1,67 @@
 <template>
   <div id="firstView">
     <div class="headWrap">
-      <div class="headUp">
-        <a href="/"></a>
-        <SearchBox :searchMsg="searchMsg"/>
-        <div class="loginBox">登录</div>
-      </div>
-      <div class="headDown">
-        <div class="tabs" v-show="!isToggle">
-          <div class="inner">
-            <div class="yokoList">
-              <div class="listItem active">
-                <span>推荐</span>
-              </div>
-              <div class="listItem">
-                <span>居家生活</span>
-              </div>
-              <div class="listItem">
-                <span>服装鞋包</span>
-              </div>
-              <div class="listItem">
-                <span>美食酒水</span>
-              </div>
-              <div class="listItem">
-                <span>个人清洁</span>
-              </div>
-              <div class="listItem">
-                <span>母婴亲子</span>
-              </div>
-              <div class="listItem">
-                <span>运动旅行</span>
-              </div>
-              <div class="listItem">
-                <span>数码家电</span>
-              </div>
-              <div class="listItem">
-                <span>礼品特色</span>
+      <div class="fixed">
+        <div class="headUp">
+          <a href="/"></a>
+          <SearchBox :searchMsg="searchMsg"/>
+          <div class="loginBox">登录</div>
+        </div>
+        <div class="headDown">
+          <div class="tabs" v-show="!isToggle">
+            <div class="inner">
+              <div class="yokoList">
+                <div class="listItem active">
+                  <span>推荐</span>
+                </div>
+                <div class="listItem">
+                  <span>居家生活</span>
+                </div>
+                <div class="listItem">
+                  <span>服装鞋包</span>
+                </div>
+                <div class="listItem">
+                  <span>美食酒水</span>
+                </div>
+                <div class="listItem">
+                  <span>个人清洁</span>
+                </div>
+                <div class="listItem">
+                  <span>母婴亲子</span>
+                </div>
+                <div class="listItem">
+                  <span>运动旅行</span>
+                </div>
+                <div class="listItem">
+                  <span>数码家电</span>
+                </div>
+                <div class="listItem">
+                  <span>礼品特色</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="hideListWrap" v-show="isToggle">
-          <div class="hideTop">全部频道</div>
-          <div class="hideList">
-            <div class="hideListItem active">推荐</div>
-            <div class="hideListItem">居家生活</div>
-            <div class="hideListItem">服装鞋包</div>
-            <div class="hideListItem">美食酒水</div>
-            <div class="hideListItem">个人清洁</div>
-            <div class="hideListItem">母婴亲子</div>
-            <div class="hideListItem">运动旅行</div>
-            <div class="hideListItem">数码家电</div>
-            <div class="hideListItem">礼品特色</div>
+          <div class="hideListWrap" v-show="isToggle">
+            <div class="hideTop">全部频道</div>
+            <div class="hideList">
+              <div class="hideListItem active">推荐</div>
+              <div class="hideListItem">居家生活</div>
+              <div class="hideListItem">服装鞋包</div>
+              <div class="hideListItem">美食酒水</div>
+              <div class="hideListItem">个人清洁</div>
+              <div class="hideListItem">母婴亲子</div>
+              <div class="hideListItem">运动旅行</div>
+              <div class="hideListItem">数码家电</div>
+              <div class="hideListItem">礼品特色</div>
+            </div>
           </div>
-        </div>
 
-        <div class="toggle">
+          <div class="toggle">
             <div class="iconArrow" @click="arrowToggle(isToggle)"></div>
           </div>
+        </div>
+        <div class="mask" v-show="isToggle"></div>
       </div>
-      <div class="mask" v-show="isToggle"></div>
     </div>
     <div class="swiperWrap">
       <swiper class="swiper" :options="swiperOption" ref="mySwiper">
@@ -200,8 +202,69 @@
       </div>
       <GaryLine/>
       <div class="flashSale">
-
+        <div class="countDownWrap">
+          <div class="countDown">
+            <span>限时购</span>
+            <div>
+              <span class="hours">00</span>
+              <span class="colon">:</span>
+              <span class="mins">{{formatTo(cdfun.mins)}}</span>
+              <span class="colon">:</span>
+              <span class="secs">{{formatTo(cdfun.secs)}}</span>
+            </div>
+          </div>
+          <a href="javascript:;">
+            <span>更多</span>
+            <i></i>
+          </a>
+        </div>
+        <div class="fsGoods">
+          <div class="good">
+            <div class="goodImg"><img src="/static/img/firstview/fsGoods01.png" alt=""></div>
+            <div class="price">
+              <span class="new">￥123</span>
+              <span class="old">￥234</span>
+            </div>
+          </div>
+          <div class="good">
+            <div class="goodImg"><img src="/static/img/firstview/fsGoods02.png" alt=""></div>
+            <div class="price">
+              <span class="new">￥216</span>
+              <span class="old">￥492</span>
+            </div>
+          </div>
+          <div class="good">
+            <div class="goodImg"><img src="/static/img/firstview/fsGoods03.png" alt=""></div>
+            <div class="price">
+              <span class="new">￥549</span>
+              <span class="old">￥156</span>
+            </div>
+          </div>
+          <div class="good">
+            <div class="goodImg"><img src="/static/img/firstview/fsGoods04.png" alt=""></div>
+            <div class="price">
+              <span class="new">￥713</span>
+              <span class="old">￥546</span>
+            </div>
+          </div>
+          <div class="good">
+            <div class="goodImg"><img src="/static/img/firstview/fsGoods05.png" alt=""></div>
+            <div class="price">
+              <span class="new">￥256</span>
+              <span class="old">￥234</span>
+            </div>
+          </div>
+          <div class="good">
+            <div class="goodImg"><img src="/static/img/firstview/fsGoods06.png" alt=""></div>
+            <div class="price">
+              <span class="new">￥245</span>
+              <span class="old">￥234</span>
+            </div>
+          </div>
+        </div>
       </div>
+      <GaryLine/>
+      <FirstViewCard/>
       <GaryLine/>
     </div>
     <a class="guangao" href="javascript:;">
@@ -228,6 +291,7 @@
 
   import SearchBox from '../../components/SearchBox/SearchBox.vue'
   import GaryLine from '../../components/GaryLine/GaryLine.vue'
+  import FirstViewCard from '../../components/FirstViewCard/FirstViewCard.vue'
 
   export default {
     data () {
@@ -257,7 +321,12 @@
           },
         },
         searchMsg: '搜索商品, 共21889款好物',
-        isToggle: false
+        isToggle: false,
+        countDown: {
+          mins: 2,
+          secs: 0
+        },
+        isIng: true
       }
     },
 
@@ -274,18 +343,9 @@
           this.isToggle = !this.isToggle
           //使下拉div消失
         }
-      }
-    },
+      },
 
-    computed: {
-      swiper() {
-        return this.$refs.mySwiper.swiper
-      }
-    },
-
-    mounted() {
-      this.swiper.slideTo(1, 1000, false)
-      this.$nextTick(() => {
+      _initScroll01(){
         if(!this.scroll01) {
           this.scroll01 = new BScroll('.inner', {
             click: true,
@@ -294,6 +354,45 @@
         } else {
           this.scroll01.refresh()
         }
+      },
+
+      formatTo(value){
+        if (value*1 < 10) {
+          value = '0' + value
+        }
+        return value
+      }
+    },
+
+    computed: {
+      swiper() {
+        return this.$refs.mySwiper.swiper
+      },
+
+      cdfun(){
+        if (this.isIng) {
+          setInterval(() => {
+            this.isIng = false
+            this.countDown.secs--
+          },1000)
+        }
+
+        if (this.countDown.secs < 0) {
+          this.countDown.mins--
+          this.countDown.secs = 59
+          if (this.countDown.mins < 0) {
+            this.countDown.mins = 2
+          }
+        }
+
+        return this.countDown
+      }
+    },
+
+    mounted() {
+      this.swiper.slideTo(1, 1000, false)
+      this.$nextTick(() => {
+        this._initScroll01()
       })
 
 
@@ -303,155 +402,161 @@
       swiper,
       swiperSlide,
       SearchBox,
-      GaryLine
+      GaryLine,
+      FirstViewCard
     }
   }
 </script>
 
 <style lang="stylus" ref="stylesheet/stylus" scoped>
   #firstView
-
     padding-bottom: 98px
     .headWrap
       width 750px
       height 148px
-      .headUp
-        position relative
-        z-index 3
-        display flex
-        flex-wrap row nowrap
-        align-listItems center
-        background #fff
-        padding 16px 30px
-        a
+      .fixed
+        position: fixed!important;
+        left: 0;
+        top: 0;
+        z-index: 11;
+        width: 100%;
+        .headUp
           position relative
-          top 8px
-          width 138px
-          height 40px
-          background-image url('/static/img/firstview/indexLogo-a90bdaae6b.png');
-          display inline-block
-          margin-right 20px
-          background-size cover
-          background-position center
-        .loginBox
-          position relative
-          top 8px
-          width 74px
-          height 40px
-          line-height 40px
-          text-align center
-          color #b4282d
-          border 1px solid #b4282d
-          border-radius 8px
-          margin-left 16px
-          font-size 24px
-
-      .headDown
-        position relative
-        z-index 3
-        background #fff
-        margin-top -1px
-        height 60px
-        padding-right 100px
-        .tabs
-          height 100%
+          z-index 3
           display flex
-          flex-flow row nowrap
-          background-color #fff
-          position relative
-          .inner
+          flex-wrap row nowrap
+          align-listItems center
+          background #fff
+          padding 16px 30px
+          a
             position relative
-            height 100%
-            width 100%
-            overflow hidden
-            display flex
-            flex-flow row nowrap;
-            .yokoList
-              height 60px
-              line-height 60px
-              padding 0 30px
-              font-size 28px
-              display flex
-              flex-flow row nowrap;
-              flex-shrink 0
-              .listItem
-                margin-left 20px
-                &.active
-                  box-sizing content-box
-                  border-bottom 4px solid #b4282d
-                  span
-                    color #b4282d
-                &:first-of-type
-                  margin-left 0
-                span
-                  display inline-block
-                  padding 0 16px
-                  line-height 60px
-                  font-size 28px
-                  color #333
-                  text-align center
-        .hideListWrap
+            top 8px
+            width 138px
+            height 40px
+            background-image url('/static/img/firstview/indexLogo-a90bdaae6b.png');
+            display inline-block
+            margin-right 20px
+            background-size cover
+            background-position center
+          .loginBox
+            position relative
+            top 8px
+            width 74px
+            height 40px
+            line-height 40px
+            text-align center
+            color #b4282d
+            border 1px solid #b4282d
+            border-radius 8px
+            margin-left 16px
+            font-size 24px
+
+        .headDown
           position relative
           z-index 3
           background #fff
           margin-top -1px
-          width 750px
-          .hideTop
-            height 60px
-            line-height 60px
-            padding-left 30px
-            font-size 28px
-
-          .hideList
-            padding-top 24px
-            overflow hidden
-            width 750px
-            .hideListItem
-              width 150px
-              height 56px
-              line-height 56px
-              text-align center
-              float left
-              margin-bottom 40px
-              margin-left 30px
-              background #FAFAFA
-              border 1px solid #CCC
-              border-radius 4px
-              &.active
-                border 1px solid #b4282d
-                color #b4282d
-        .toggle
-          position absolute
-          top -1px
-          right 35px
-          z-index 3
-          position
-          width 100px
-          height 100%
-          display flex
-          flex-grow 0
-          align-listItems center
-          justify-content center
-          .iconArrow
+          height 60px
+          padding-right 100px
+          .tabs
+            height 100%
+            display flex
+            flex-flow row nowrap
+            background-color #fff
             position relative
-            top 16px
-            display inline-block
-            vertical-align middle
-            background-image url('/static/img/firstview/arrow-down-3-799ded53ea.png')
-            background-repeat no-repeat
-            background-size 100% 100%
-            width 30px
-            height 30px
-            transition: transform .5s;
+            .inner
+              position relative
+              height 100%
+              width 100%
+              overflow hidden
+              display flex
+              flex-flow row nowrap;
+              .yokoList
+                height 60px
+                line-height 60px
+                padding 0 30px
+                font-size 28px
+                display flex
+                flex-flow row nowrap;
+                flex-shrink 0
+                .listItem
+                  margin-left 20px
+                  &.active
+                    box-sizing content-box
+                    border-bottom 4px solid #b4282d
+                    span
+                      color #b4282d
+                  &:first-of-type
+                    margin-left 0
+                  span
+                    display inline-block
+                    padding 0 16px
+                    line-height 60px
+                    font-size 28px
+                    color #333
+                    text-align center
+          .hideListWrap
+            position relative
+            z-index 3
+            background #fff
+            margin-top -1px
+            width 750px
+            .hideTop
+              height 60px
+              line-height 60px
+              padding-left 30px
+              font-size 28px
 
-      .mask
-        position fixed
-        z-index 2
-        background rgba(0,0,0,.5)
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
+            .hideList
+              padding-top 24px
+              overflow hidden
+              width 750px
+              .hideListItem
+                width 150px
+                height 56px
+                line-height 56px
+                text-align center
+                float left
+                margin-bottom 40px
+                margin-left 30px
+                background #FAFAFA
+                border 1px solid #CCC
+                border-radius 4px
+                &.active
+                  border 1px solid #b4282d
+                  color #b4282d
+          .toggle
+            position absolute
+            top -1px
+            right 35px
+            z-index 3
+            position
+            width 100px
+            height 100%
+            display flex
+            flex-grow 0
+            align-listItems center
+            justify-content center
+            .iconArrow
+              position relative
+              top 16px
+              display inline-block
+              vertical-align middle
+              background-image url('/static/img/firstview/arrow-down-3-799ded53ea.png')
+              background-repeat no-repeat
+              background-size 100% 100%
+              width 30px
+              height 30px
+              transition: transform .5s;
+
+        .mask
+          position fixed
+          z-index 2
+          background rgba(0,0,0,.5)
+          top: 0
+          left: 0
+          right: 0
+          bottom: 0
     .swiperWrap
       height 370px
       .swiper
@@ -515,8 +620,8 @@
                 width: 1.46667rem;
                 height: 1.46667rem;
             p
-              margin-top: .13333rem;
-              text-align: center;
+              margin-top: .13333rem
+              text-align: center
               font-size: .32rem;
               line-height: .48rem;
               white-space: nowrap;
@@ -668,6 +773,80 @@
       .flashSale
         height: 698px;
         background: #fff;
+        .countDownWrap
+          width: 100%;
+          height: 1.33333rem;
+          line-height: 1.33333rem;
+          padding: 0 .4rem;
+          background: #fff;
+          overflow: hidden;
+          .countDown
+            float: left;
+            font-size: .42667rem;
+            font-family: PingFangSC-Regular;
+            div
+              display: inline-block;
+              vertical-align: middle;
+              margin: -.08rem 0 0 .16rem;
+              span.hours, span.mins, span.secs
+                display: inline-block;
+                font-size: .32rem;
+                line-height: .48rem;
+                width: .48rem;
+                height: .48rem;
+                text-align: center;
+                background-color: #333;
+                border-radius: .05333rem;
+                color: #fff;
+                font-family: PingFangSC-Medium;
+              span.colon
+                font-size: .37333rem;
+
+          a
+            display: block;
+            font-size: .37333rem;
+            float: right;
+            color: #333;
+            line-height: 1.33333rem;
+            i
+              margin: -.06667rem 0 0 0;
+              display: inline-block;
+              vertical-align: middle;
+              background-image: url('/static/img/firstview/more.png');
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+              width: .17333rem;
+              height: .30667rem;
+        .fsGoods
+          overflow: hidden;
+          padding: 0 .13333rem 0 .4rem;
+          .good
+            display: block;
+            color: #333;
+            float: left;
+            margin-right: .26667rem;
+            padding-bottom: .4rem;
+            .goodImg
+              width: 2.88rem;
+              height: 2.88rem;
+              background: #F5F5F5;
+              border-radius: 4px;
+              margin-bottom: .16rem;
+              img
+                width: 2.88rem;
+                height: 2.88rem;
+
+            .price
+              padding-left: .26667rem;
+              .new
+                font-size: .37333rem;
+                color: #b4282d;
+                margin-right: .16rem;
+              .old
+                font-size: .32rem;
+                color: #7F7F7F;
+                text-decoration: line-through;
+
     .guangao
       position: fixed
       right: 0

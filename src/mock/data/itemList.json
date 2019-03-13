@@ -1,0 +1,1120 @@
+[
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/d723607e0cbb0c4a11c9396612c71d9b.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 0,
+    "name": "推荐专区",
+    "id": 1001,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cee41a60a2d4d06426f863aea2395f19.png?imageView&quality=85&thumbnail=144x144",
+        "name": "每日特惠好货",
+        "id": 1008009
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ec4e9c2a499ec117f0d49f11020032e7.png?imageView&quality=85&thumbnail=144x144",
+        "name": "白色情人节",
+        "id": 1008008
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/91b7a8dd51010dcb56c95cb15c1c0570.png?imageView&quality=85&thumbnail=144x144",
+        "name": "天天315",
+        "id": 1008016
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/369b0482417a8826043da11ba994b5ae.png?imageView&quality=85&thumbnail=144x144",
+        "name": "全能收纳专家",
+        "id": 1008017
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/3f09367f18fd46526b3a269f24ad2000.png?imageView&quality=85&thumbnail=144x144",
+        "name": "大家都在搜",
+        "id": 1008002
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/756fc45b73941c43dc2e7d84b9aa8c08.png?imageView&quality=85&thumbnail=144x144",
+        "name": "999+好评",
+        "id": 1011004
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ae5944b93150cf17bbebc3ba850d3f55.png?imageView&quality=85&thumbnail=144x144",
+        "name": "送爸妈",
+        "id": 1020000
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/10ceea25caee323abf4e5d26d74cb1d4.png?imageView&quality=85&thumbnail=144x144",
+        "name": "火锅轰趴",
+        "id": 1092010
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/80e1c646844df3a46a0aa30e19b41716.png?imageView&quality=85&thumbnail=144x144",
+        "name": "换季清扫季",
+        "id": 1092011
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/7133cb4594d6ecaeadebeeb5114b7e78.png?imageView&quality=85&thumbnail=144x144",
+        "name": "除霾好物",
+        "id": 1017000
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/26be5a2b9162eef2aa95985ae20aced2.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 1,
+    "name": "春季专区",
+    "id": 1002,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/8ebec9475377b011d5f0b5a5a0a61830.png?imageView&quality=85&thumbnail=144x144",
+        "name": "5.5折换春装",
+        "id": 1037000
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/d997da3d78408efb74b86a1fc34dcf90.png?imageView&quality=85&thumbnail=144x144",
+        "name": "春季出游精选",
+        "id": 1056002
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c82f6ac299031773f4551dae0cc559fa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "保暖居家服",
+        "id": 1056001
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/8d8c6dbb63565ef065619ef1038fb462.png?imageView&quality=85&thumbnail=144x144",
+        "name": "甩掉冬日赘肉",
+        "id": 1056003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/50c65277275790dcca741222ac6115b4.png?imageView&quality=85&thumbnail=144x144",
+        "name": "舒适床品",
+        "id": 1013000
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/51372a24235f27e698ce609a7d2fbcba.png?imageView&quality=85&thumbnail=144x144",
+        "name": "干季滋润护理",
+        "id": 1008003
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/fc87526ae9be33dfa45800567ec735d3.png?imageView&quality=85&thumbnail=144x144",
+        "name": "品质生活全球购",
+        "id": 1008010
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/707a86591ac5714b4517474c8af38a17.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公室贪嘴小食",
+        "iconUrl": "",
+        "id": 1044000
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/aa9d3c8dd65070df7ab41e9fd4964ca2.png?imageView&quality=85&thumbnail=144x144",
+        "name": "春季温暖家电",
+        "id": 1008007
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/682b084019c74bcce7c322e0ec0ecd9a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "懒人方便速食",
+        "id": 1008004
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/19a5c9cc21979e472bba2e79067a94ca.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 2,
+    "name": "爆品专区",
+    "id": 1003,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/69012752bdd2d01231287113d2c75116.png?imageView&quality=85&thumbnail=144x144",
+        "name": "居家生活",
+        "id": 1093012
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f77877a071caf7ba2b223ce3d5e3a1fc.png?imageView&quality=85&thumbnail=144x144",
+        "name": "服饰鞋包",
+        "id": 109214004
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/e50e1b0267b8116849085f1c27fbf316.png?imageView&quality=85&thumbnail=144x144",
+        "name": "美食酒水",
+        "id": 1093009
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0849e0d699120c858321729bca5b90b4.png?imageView&quality=85&thumbnail=144x144",
+        "name": "个护清洁",
+        "id": 1068003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6b82cd6fb07f118aa061d612b1f09011.png?imageView&quality=85&thumbnail=144x144",
+        "name": "运动旅行",
+        "id": 1093008
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/dc1db08e5a96c8753144a5eb226cccf1.png?imageView&quality=85&thumbnail=144x144",
+        "name": "母婴亲子",
+        "id": 109214000
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f07ff0b34e8a74593e746af6a6737a86.png?imageView&quality=85&thumbnail=144x144",
+        "name": "数码家电",
+        "id": 1093010
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/1b1b6419309cf0c9c0ea71b1246bb703.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 3,
+    "name": "新品专区",
+    "id": 1004,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/95c3254f8d145f12f6871c0ca1bf184f.png?imageView&quality=85&thumbnail=144x144",
+        "name": "居家生活新品",
+        "iconUrl": "",
+        "id": 1011003
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ce6e5500ed7ca7d26864171b285bdaf7.png?imageView&quality=85&thumbnail=144x144",
+        "name": "服装鞋包新品",
+        "id": 1023000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/3ada6b61e5e488afb72f3593cbb49409.png?imageView&quality=85&thumbnail=144x144",
+        "name": "美食酒水新品",
+        "iconUrl": "",
+        "id": 1010003
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/88787d794ebb2fdbcc8d25d04664f51c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "个护清洁新品",
+        "id": 1022000
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/d5ebf3e810c96206d4bd70d1a2b54496.png?imageView&quality=85&thumbnail=144x144",
+        "name": "运动旅行新品",
+        "iconUrl": "",
+        "id": 1008006
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/07cb6f9d0cadaa18fcb8c166c5cf8a06.png?imageView&quality=85&thumbnail=144x144",
+        "name": "母婴亲子新品",
+        "iconUrl": "",
+        "id": 1008006
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/51b373c56c16e59277623f54ae2b9893.png?imageView&quality=85&thumbnail=144x144",
+        "name": "数码家电新品",
+        "iconUrl": "",
+        "id": 1008006
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4daf112904a041af1937c5fb2237df45.png?imageView&quality=85&thumbnail=144x144",
+        "name": "礼品特色新品",
+        "iconUrl": "",
+        "id": 1008006
+      }
+    ]
+  },
+
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/d5621861acd557d22484425192c8eb8c.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 4,
+    "name": "居家生活",
+    "id": 1005,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/b5c69fcc96415a967893473a5c540012.png?imageView&quality=85&thumbnail=144x144",
+        "name": "羽绒厚被",
+        "id": 1037001
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4008e2244ab62213c522d50334adbcfa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "磨毛件套",
+        "id": 1009000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/234e2754496f905c1ef0ef3868b798f0.png?imageView&quality=85&thumbnail=144x144",
+        "name": "绒暖布艺",
+        "id": 1037004
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+        "name": "床品件套",
+        "id": 109208003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cc507ff0ce7cafc1012885a01fb1942a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "被枕垫褥",
+        "id": 1020002
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+        "name": "布艺软装",
+        "id": 1008001
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+        "name": "毛巾浴巾",
+        "id": 1013002
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+        "name": "客餐厅家具",
+        "id": 1013004
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "卧室家具",
+        "id": 1020001
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公书房家具",
+        "id": 1037002
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+        "name": "小件家具",
+        "id": 1013003
+      },
+      {
+        "showIndex": 11,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+        "name": "灯具",
+        "id": 1037003
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/e9869e8a56e6f0ef26e6ad1b0d4a156e.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 5,
+    "name": "鞋包服饰",
+    "id": 1006,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/b5c69fcc96415a967893473a5c540012.png?imageView&quality=85&thumbnail=144x144",
+        "name": "羽绒厚被",
+        "id": 1037001
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4008e2244ab62213c522d50334adbcfa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "磨毛件套",
+        "id": 1009000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/234e2754496f905c1ef0ef3868b798f0.png?imageView&quality=85&thumbnail=144x144",
+        "name": "绒暖布艺",
+        "id": 1037004
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+        "name": "床品件套",
+        "id": 109208003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cc507ff0ce7cafc1012885a01fb1942a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "被枕垫褥",
+        "id": 1020002
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+        "name": "布艺软装",
+        "id": 1008001
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+        "name": "毛巾浴巾",
+        "id": 1013002
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+        "name": "客餐厅家具",
+        "id": 1013004
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "卧室家具",
+        "id": 1020001
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公书房家具",
+        "id": 1037002
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+        "name": "小件家具",
+        "id": 1013003
+      },
+      {
+        "showIndex": 11,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+        "name": "灯具",
+        "id": 1037003
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/486a4aa406915a9cd32798985ffdf339.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 6,
+    "name": "美食酒水",
+    "id": 1007,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/b5c69fcc96415a967893473a5c540012.png?imageView&quality=85&thumbnail=144x144",
+        "name": "羽绒厚被",
+        "id": 1037001
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4008e2244ab62213c522d50334adbcfa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "磨毛件套",
+        "id": 1009000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/234e2754496f905c1ef0ef3868b798f0.png?imageView&quality=85&thumbnail=144x144",
+        "name": "绒暖布艺",
+        "id": 1037004
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+        "name": "床品件套",
+        "id": 109208003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cc507ff0ce7cafc1012885a01fb1942a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "被枕垫褥",
+        "id": 1020002
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+        "name": "布艺软装",
+        "id": 1008001
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+        "name": "毛巾浴巾",
+        "id": 1013002
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+        "name": "客餐厅家具",
+        "id": 1013004
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "卧室家具",
+        "id": 1020001
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公书房家具",
+        "id": 1037002
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+        "name": "小件家具",
+        "id": 1013003
+      },
+      {
+        "showIndex": 11,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+        "name": "灯具",
+        "id": 1037003
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/79432969ea123176494a8cbc6c24a57e.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 7,
+    "name": "个护清洁",
+    "id": 1008,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/b5c69fcc96415a967893473a5c540012.png?imageView&quality=85&thumbnail=144x144",
+        "name": "羽绒厚被",
+        "id": 1037001
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4008e2244ab62213c522d50334adbcfa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "磨毛件套",
+        "id": 1009000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/234e2754496f905c1ef0ef3868b798f0.png?imageView&quality=85&thumbnail=144x144",
+        "name": "绒暖布艺",
+        "id": 1037004
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+        "name": "床品件套",
+        "id": 109208003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cc507ff0ce7cafc1012885a01fb1942a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "被枕垫褥",
+        "id": 1020002
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+        "name": "布艺软装",
+        "id": 1008001
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+        "name": "毛巾浴巾",
+        "id": 1013002
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+        "name": "客餐厅家具",
+        "id": 1013004
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "卧室家具",
+        "id": 1020001
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公书房家具",
+        "id": 1037002
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+        "name": "小件家具",
+        "id": 1013003
+      },
+      {
+        "showIndex": 11,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+        "name": "灯具",
+        "id": 1037003
+      }
+    ]
+  },
+
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/be5140165638e83960074d77e9deac59.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 8,
+    "name": "母婴亲子",
+    "id": 1009,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/b5c69fcc96415a967893473a5c540012.png?imageView&quality=85&thumbnail=144x144",
+        "name": "羽绒厚被",
+        "id": 1037001
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4008e2244ab62213c522d50334adbcfa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "磨毛件套",
+        "id": 1009000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/234e2754496f905c1ef0ef3868b798f0.png?imageView&quality=85&thumbnail=144x144",
+        "name": "绒暖布艺",
+        "id": 1037004
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+        "name": "床品件套",
+        "id": 109208003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cc507ff0ce7cafc1012885a01fb1942a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "被枕垫褥",
+        "id": 1020002
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+        "name": "布艺软装",
+        "id": 1008001
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+        "name": "毛巾浴巾",
+        "id": 1013002
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+        "name": "客餐厅家具",
+        "id": 1013004
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "卧室家具",
+        "id": 1020001
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公书房家具",
+        "id": 1037002
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+        "name": "小件家具",
+        "id": 1013003
+      },
+      {
+        "showIndex": 11,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+        "name": "灯具",
+        "id": 1037003
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/7bf73adda703c23e6998e9d60d7b75d4.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 9,
+    "name": "运动旅行",
+    "id": 1010,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/b5c69fcc96415a967893473a5c540012.png?imageView&quality=85&thumbnail=144x144",
+        "name": "羽绒厚被",
+        "id": 1037001
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4008e2244ab62213c522d50334adbcfa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "磨毛件套",
+        "id": 1009000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/234e2754496f905c1ef0ef3868b798f0.png?imageView&quality=85&thumbnail=144x144",
+        "name": "绒暖布艺",
+        "id": 1037004
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+        "name": "床品件套",
+        "id": 109208003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cc507ff0ce7cafc1012885a01fb1942a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "被枕垫褥",
+        "id": 1020002
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+        "name": "布艺软装",
+        "id": 1008001
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+        "name": "毛巾浴巾",
+        "id": 1013002
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+        "name": "客餐厅家具",
+        "id": 1013004
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "卧室家具",
+        "id": 1020001
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公书房家具",
+        "id": 1037002
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+        "name": "小件家具",
+        "id": 1013003
+      },
+      {
+        "showIndex": 11,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+        "name": "灯具",
+        "id": 1037003
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/cdd389ee69b353b5010b80ae38a414c1.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 10,
+    "name": "数码家电",
+    "id": 1011,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/b5c69fcc96415a967893473a5c540012.png?imageView&quality=85&thumbnail=144x144",
+        "name": "羽绒厚被",
+        "id": 1037001
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4008e2244ab62213c522d50334adbcfa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "磨毛件套",
+        "id": 1009000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/234e2754496f905c1ef0ef3868b798f0.png?imageView&quality=85&thumbnail=144x144",
+        "name": "绒暖布艺",
+        "id": 1037004
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+        "name": "床品件套",
+        "id": 109208003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cc507ff0ce7cafc1012885a01fb1942a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "被枕垫褥",
+        "id": 1020002
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+        "name": "布艺软装",
+        "id": 1008001
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+        "name": "毛巾浴巾",
+        "id": 1013002
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+        "name": "客餐厅家具",
+        "id": 1013004
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "卧室家具",
+        "id": 1020001
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公书房家具",
+        "id": 1037002
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+        "name": "小件家具",
+        "id": 1013003
+      },
+      {
+        "showIndex": 11,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+        "name": "灯具",
+        "id": 1037003
+      }
+    ]
+  },
+  {
+    "imgUrl": "http://yanxuan.nosdn.127.net/07b0751a32a5d7530d43c0f3d7188a9c.jpg?imageView&thumbnail=0x196&quality=75",
+    "showIndex": 11,
+    "name": "礼品特色",
+    "id": 1012,
+    "subCateList": [
+      {
+        "showIndex": 0,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/b5c69fcc96415a967893473a5c540012.png?imageView&quality=85&thumbnail=144x144",
+        "name": "羽绒厚被",
+        "id": 1037001
+      },
+      {
+        "showIndex": 1,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/4008e2244ab62213c522d50334adbcfa.png?imageView&quality=85&thumbnail=144x144",
+        "name": "磨毛件套",
+        "id": 1009000
+      },
+      {
+        "showIndex": 2,
+        "level": "L2",
+        "title": "季末特卖",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/234e2754496f905c1ef0ef3868b798f0.png?imageView&quality=85&thumbnail=144x144",
+        "name": "绒暖布艺",
+        "id": 1037004
+      },
+      {
+        "showIndex": 3,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+        "name": "床品件套",
+        "id": 109208003
+      },
+      {
+        "showIndex": 4,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/cc507ff0ce7cafc1012885a01fb1942a.png?imageView&quality=85&thumbnail=144x144",
+        "name": "被枕垫褥",
+        "id": 1020002
+      },
+      {
+        "showIndex": 5,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+        "name": "布艺软装",
+        "id": 1008001
+      },
+      {
+        "showIndex": 6,
+        "level": "L2",
+        "title": "家纺床品",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+        "name": "毛巾浴巾",
+        "id": 1013002
+      },
+      {
+        "showIndex": 7,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+        "name": "客餐厅家具",
+        "id": 1013004
+      },
+      {
+        "showIndex": 8,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+        "name": "卧室家具",
+        "id": 1020001
+      },
+      {
+        "showIndex": 9,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+        "name": "办公书房家具",
+        "id": 1037002
+      },
+      {
+        "showIndex": 10,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+        "name": "小件家具",
+        "id": 1013003
+      },
+      {
+        "showIndex": 11,
+        "level": "L2",
+        "title": "家装家具",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+        "name": "灯具",
+        "id": 1037003
+      }
+    ]
+  }
+]
