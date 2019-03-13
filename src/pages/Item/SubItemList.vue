@@ -1,12 +1,14 @@
 <template>
-  <div id="cateList" v-if="subItemList">
-    <div class="list-r">
+  <div id="cateList">
+    <div class="list-r" v-if="subItemList">
       <div class="list-r-content">
-        <div class="list-banner"></div>
+        <div class="list-banner">
+          <!--<img :src="subItemList.imgUrl" alt="">-->
+        </div>
         <div class="listWrap">
-          <div class="title">{{subItem.title}}</div>
+          <!--<div class="title">{{subItem.title}}</div>-->
           <ul class="list">
-            <li class="item" v-for="(subItem, index) in subItemList.subCateList" :key="index">
+            <li class="item" v-for="(subItem, index) in subItemList" :key="index">
               <img :src="subItem.wapBannerUrl" class="itemImg"/>
               <div class="name">{{subItem.name}}</div>
             </li>
@@ -36,7 +38,7 @@
            } else {
            return result
            }*/
-          return result
+          return result.subCateList
         }
       }
     },
@@ -92,7 +94,6 @@
         background-size: cover;
         border-radius: 4px;
         background-image url("/static/img/item1/9eb09ecd7fc58151568f4b0b616db1cf.jpg")
-
       .listWrap
         .title
           padding-bottom: .10667rem;

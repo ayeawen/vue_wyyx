@@ -18,13 +18,13 @@
         </div>
       </div>
     </div>
-    <div class="main">
+    <div class="main" v-show="$route.path==='/user'">
       <div class="top">
         <div class="logoWrap">
           <img src="/static/img/login/bd139d2c42205f749cd4ab78fa3d6c60.png" alt="">
         </div>
         <div class="btnWrap">
-          <button class="phone">
+          <button class="phone" @click="toPhoneLogin">
             <i></i>
             <span>手机号码登录</span>
           </button>
@@ -53,6 +53,7 @@
         </div>
       </div>
     </div>
+    <router-view/>
   </div>
 </template>
 
@@ -69,6 +70,9 @@
       toCart(){
         this.$router.push('/cart')
       },
+      toPhoneLogin(){
+        this.$router.push('/user/phonelogin')
+      }
     }
   }
 </script>

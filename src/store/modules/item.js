@@ -18,13 +18,13 @@ const actions = {
     //1.发ajax请求
     const result = await reqItemList()
     const {data, code} = result
+    //2.成功后提交到mutations
     if (code===0) {
       // console.log(data)
-      //拿到数据,通过commit提交给mutations
       commit(RECRIVE_ITEMLIST, {data})
       typeof cb === 'function' && cb()
     }
-    //2.成功后提交到mutations
+
   }
 };
 

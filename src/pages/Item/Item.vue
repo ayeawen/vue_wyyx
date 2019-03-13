@@ -4,8 +4,15 @@
       <SearchBox :searchMsg="searchMsg"/>
     </div>
     <div class="itemList">
-      <NavItemList/>
+      <div class="list-l">
+        <ul class="list">
+          <li class="item" v-for="(item, index) in itemList" :key="index">
+            <span>{{item.name}}</span>
+          </li>
+        </ul>
+      </div>
     </div>
+    <SubItemList/>
     <div class="footerWrap">
       <FooterGuide/>
     </div>
@@ -13,10 +20,12 @@
 </template>
 
 <script>
+  import BScroll from 'better-scroll'
+  import {mapState} from 'vuex'
+
   import SearchBox from '../../components/SearchBox/SearchBox.vue'
   import FooterGuide from '../../components/FooterGuide/FooterGuide.vue'
   import SubItemList from './SubItemList.vue'
-  import NavItemList from './NavItemList.vue'
 
   export default {
     data () {
@@ -25,14 +34,34 @@
       }
     },
 
-    mounted() {
+    computed: {
+      ...mapState({
+        itemList: state => state.item.itemList
+      }),
+    },
 
+    mounted() {
+      this.$nextTick(() => {
+        this._initScroll03()
+      })
       this.$store.dispatch('getItemList')
+    },
+
+    methods: {
+      _initScroll03(){
+        if(!this.scroll03) {
+          this.scroll03 = new BScroll('.list-l', {
+            scrollX: true,
+            click: true
+          })
+        } else {
+          this.scroll03.refresh()
+        }
+      },
     },
 
     components: {
       SearchBox,
-      NavItemList,
       SubItemList,
       FooterGuide
     }
@@ -55,4 +84,35 @@
     width 100%
     height: 1148px;
     background #fff
+    .list-l
+      height 1148px
+      float: left;
+      width: 2.16rem;
+      background-color: #fff;
+      .list
+        box-sizing content-box
+        height 100%
+        padding: .53333rem 0;
+        .item
+          position relative
+          margin-top: .53333rem;
+          width: 100%;
+          height: .66667rem;
+          text-align: center;
+          border: none;
+          font-size: .37333rem
+          &:first-child
+            margin-top 0
+          &.active
+            span
+              color: #ab2b2b;
+            &::before
+              content: '';
+              position: absolute;
+              top: -5px;
+              left: 0;
+              bottom: 0;
+              width: .08rem;
+              height: .66667rem;
+              background-color: #ab2b2b;
 </style>
